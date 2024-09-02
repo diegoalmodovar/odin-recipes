@@ -1,0 +1,64 @@
+* {
+    line-height: 1.5;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container
+{
+
+    border: 2px solid rgb(41, 16, 184);
+    border-radius: 25px;
+    padding: 15px;
+    background-color: rgb(236, 209, 221);
+    text-align: left;
+    margin: 20px auto;
+    width: 500px;
+}
+
+
+.container
+h1,
+h2 {
+    color: brown;
+}
+
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    
+}
+
+ol li {
+    margin-bottom: 8px;
+}
+
+.container
+ li::marker {
+    color: brown;
+} 
+
+.container
+ul li::marker {
+    color: brown;
+} 
+
+.container 
+a {
+    text-align: center;
+    display:block;
+    /* background-color: yellow; */
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.container ul li a {    
+    text-align: left;
+}
